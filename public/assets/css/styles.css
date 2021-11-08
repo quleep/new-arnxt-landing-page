@@ -453,6 +453,18 @@ a:hover {
 	margin-bottom: 5rem;
 }
 
+.header .font {
+	align-items: center;
+	margin-top: 2rem;
+	margin-right: 30px;
+	color: yellow;
+}
+
+.header h2 {
+	margin-right: 20px;
+	color: #a1a1a1;
+}
+
 .header .p-large {
 	margin-top: 2.25rem;
 	color: white;
@@ -687,7 +699,7 @@ a:hover {
 .features {
 	padding-top: 9.25rem;
 	padding-bottom: 9.75rem;
-	background-color:#161e2d;
+	background-color:#161e2d !important;
 	/* background: url('../images/features-background.jpg') center center no-repeat; */
 	background-size: cover;
 }
@@ -697,6 +709,7 @@ a:hover {
 	margin-top: 200px;
 	color: #fdf000;
 	text-align: center;
+
 }
 
 .features .p-heading {

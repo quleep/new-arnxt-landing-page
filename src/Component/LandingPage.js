@@ -19,11 +19,23 @@ function LandingPage() {
                 <h1 className="h1-large">
                   Experiential Commerce <br />A Marketplace for "TRY & BUY"
                 </h1>
-                <a className="btn-solid-sm" href="#services"> {" "} <DiApple style={{height:'20px'}} /> Download Now </a> 
+
+                <h2>Download Now!
+
+                </h2>
+
+                <FaGooglePlay className='font' style={{fontSize:'70px'}} />
+
+                <DiApple className='font' style={{fontSize:'80px'}} />
+
+
+               
+
+                {/* <a className="btn-solid-sm" href="#services"> {" "} Download Now </a> 
                 <br /> 
                 <br /> 
                 <br />
-                <a className="btn-solid-sm" href="#services"> {" "} <FaGooglePlay style={{height:'20px'}} /> Download Now </a>
+                <a className="btn-solid-sm" href="#services"> {" "}  Download Now </a> */}
                 {/* <a className="btn-solid-lg" href="#services">Scheduled Demo</a>
                                     <a className="btn-solid-lg" href="#services">Product Video</a> */}
                 <br />
