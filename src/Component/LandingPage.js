@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { DiApple } from "react-icons/di";
 import { FaGooglePlay } from "react-icons/fa";
 import { VscTools } from "react-icons/vsc";
@@ -7,6 +7,14 @@ import { BsSpeedometer } from "react-icons/bs";
 import Fade from "react-reveal/Fade";
 
 function LandingPage() {
+
+
+  // scrolled to top when redirected from a page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
+
   return (
     <div>
       {/* Header starts here ------------------------------------------------------------------------ */}
@@ -89,7 +97,7 @@ function LandingPage() {
           <div className="row">
             <div className="col-lg-12">
               <div className="card">
-                <div className="card-icon">
+                <div className="card-icon mx-auto">
                   <span className="fas">
                     <VscTools className="ar-theme-color" />
                   </span>
@@ -105,7 +113,7 @@ function LandingPage() {
               </div>
 
               <div className="card">
-                <div className="card-icon red">
+                <div className="card-icon mx-auto red">
                   <span className="far">
                     {" "}
                     <IoLayersOutline className="ar-theme-color" />{" "}
@@ -122,7 +130,7 @@ function LandingPage() {
               </div>
 
               <div className="card">
-                <div className="card-icon green">
+                <div className="card-icon mx-auto green">
                   <span className="far">
                     {" "}
                     <BsSpeedometer className="ar-theme-color" />{" "}
@@ -152,7 +160,7 @@ function LandingPage() {
 
                 <div className="slider-container">
                   <div className="swiper-container image-slider">
-                    <div className="swiper-wrapper">
+                    <div className="swiper-wrapper d-flex align-items-center">
                       <div className="swiper-slide">
                         <img
                           className="img-fluid"

@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
 function Privacypolicy() {
-    return (
-        <div>
-            <div id="privacy" className="section section-padding offwhite-bg">
+  // scrolled to top when redirected from a page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const ScrollToTop = ()=>{
+    
+  }
+
+  return (
+    <div>
+      <div id="privacy" className="section section-padding offwhite-bg">
         <div className="container text-left">
           {/* heading start */}
           <div className="">
@@ -43,70 +52,142 @@ function Privacypolicy() {
           <div id="privacy-navigation">
             <ul>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy1" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy1"
+                  className="link-color"
+                >
                   What Personal Information About Customers Does Quleep Collect?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy2" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy2"
+                  className="link-color"
+                >
                   For What Purposes Does Quleep Use Your Personal Information?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy3" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy3"
+                  className="link-color"
+                >
                   What About Cookies and Other Identifiers?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy4" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy4"
+                  className="link-color"
+                >
                   Does Quleep Share Your Personal Information?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy5" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy5"
+                  className="link-color"
+                >
                   How Secure is Information About Me?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy6" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy6"
+                  className="link-color"
+                >
                   What About Advertising?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy7" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy7"
+                  className="link-color"
+                >
                   What Information can I Access?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy8" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy8"
+                  className="link-color"
+                >
                   What Choices Do I Have?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy9" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy9"
+                  className="link-color"
+                >
                   Are Children Allowed to Use Quleep Services?
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy10" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy10"
+                  className="link-color"
+                >
                   Conditions of Use, Notices, and Revisions
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy11" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy11"
+                  className="link-color"
+                >
                   Related Practices and Information
                 </Link>
               </li>
               <li>
-                <Link spy={true} smooth={true} offset={-90} to="policy12" className="link-color">
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  to="policy12"
+                  className="link-color"
+                >
                   Examples of Information Collected
                 </Link>
               </li>
             </ul>
             <div className="">
-              <Link spy={true} smooth={true} offset={-90} to="description">
+              <div onClick={()=>ScrollToTop}>
                 Back to top
-              </Link>
+              </div>
             </div>
           </div>
           {/* navigation end */}
@@ -148,9 +229,9 @@ function Privacypolicy() {
                 the information we receive
               </p>
               <div className="">
-                <Link spy={true} smooth={true} offset={-90} to="description">
+                <div onClick={()=>ScrollToTop}>
                   Back to top
-                </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -384,9 +465,9 @@ function Privacypolicy() {
                 <a href="/">Advertising Preferences</a> page.
               </p>
             </div>
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
 
           <div name="policy7" className="">
@@ -400,9 +481,9 @@ function Privacypolicy() {
               information that is not available through Your Account you can
               submit a request <a href="/">here</a>.
             </div>
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
           <div name="policy8" className="">
             <h3 className="">What Choices Do I Have?</h3>
@@ -482,9 +563,9 @@ function Privacypolicy() {
                 </li>
               </ul>
             </div>
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
           <div name="policy9" className="">
             <h3 className="">Are Children Allowed to Use Quleep Services ?</h3>
@@ -494,9 +575,9 @@ function Privacypolicy() {
               age of 18 years, you may use Quleep Services only with the
               involvement of a parent or guardian.
             </div>
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
           <div name="policy10" className="">
             <h3 className="">Conditions of Use, Notices , and Revisions</h3>
@@ -519,9 +600,9 @@ function Privacypolicy() {
               affected customers.
             </div>
 
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
           <div name="policy11" className="">
             <h3 className="">Related Practices and Information</h3>
@@ -544,9 +625,9 @@ function Privacypolicy() {
                 </li>
               </ul>
             </div>
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
           <div name="policy12" className="">
             <h3 className="">Examples of Information Collected</h3>
@@ -728,9 +809,9 @@ function Privacypolicy() {
               technologies on devices, applications, and our web pages to
               collect browsing, usage, or other technical information.
             </div>
-            <Link spy={true} smooth={true} offset={-90} to="description">
+            <div onClick={()=>ScrollToTop}>
               Back to top
-            </Link>
+            </div>
           </div>
           <div className="">
             <b className="sectin-subtext">Information from Other Sources</b>
@@ -846,8 +927,8 @@ function Privacypolicy() {
           {/* main section end */}
         </div>
       </div>
-        </div>
-    )
+    </div>
+  );
 }
 
 export default Privacypolicy;
