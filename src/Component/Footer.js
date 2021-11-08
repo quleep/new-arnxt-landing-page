@@ -29,34 +29,34 @@ function Footer() {
         </div>
                         <div className="social-container">
                             <span className="fa-stack">
-                                <Link to="https://www.facebook.com/ARNXT/">
+                                <a href="https://www.facebook.com/ARNXT/" target='blank'>
                                     <i className="fas fa-circle fa-stack-2x"></i>
                                     <i className="fab fa-facebook-f fa-stack-1x"></i>
-                                </Link>
+                                </a>
                             </span>
                             <span className="fa-stack">
-                                <Link to="https://twitter.com/ARNXT1">
+                                <a href="https://twitter.com/ARNXT1" target='blank'>
                                     <i className="fas fa-circle fa-stack-2x"></i>
                                     <i className="fab fa-twitter fa-stack-1x"></i>
-                                </Link>
+                                </a>
                             </span>
                             <span className="fa-stack">
-                                <Link to="https://www.linkedin.com/company/arnxt">
+                                <a href="https://www.linkedin.com/company/arnxt" target='blank'>
                                     <i className="fas fa-circle fa-stack-2x"></i>
                                     <i className="fab fa-linkedin fa-stack-1x"></i>
-                                </Link>
+                                </a>
                             </span>
                             <span className="fa-stack">
-                                <Link to="https://www.instagram.com/arnxt2021/">
+                                <a href="https://www.instagram.com/arnxt2021/" target='blank'>
                                     <i className="fas fa-circle fa-stack-2x"></i>
                                     <i className="fab fa-instagram fa-stack-1x"></i>
-                                </Link>
+                                </a>
                             </span>
                             <span className="fa-stack">
-                                <Link to="https://www.youtube.com/channel/UCeMwHXO9Y_L5mAc0jKmxT4A">
+                                <a href="https://www.youtube.com/channel/UCeMwHXO9Y_L5mAc0jKmxT4A" target='blank'>
                                     <i className="fas fa-circle fa-stack-2x"></i>
                                     <i className="fab fa-youtube fa-stack-1x"></i>
-                                </Link>
+                                </a>
                             </span>
                         </div> 
                     </div> 

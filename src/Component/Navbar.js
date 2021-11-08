@@ -42,7 +42,7 @@ function Navbar() {
     
                     </ul>
                     <span className="nav-item">
-                        <a className="btn-solid-sm" href="https://login.arnxt.com" target='blank '>Start Selling</a>
+                        <a className="btn-solid-sm" href="https://login.arnxt.com" target='blank'>Start Selling</a>
                     </span>
                 </div> 
             </div> 

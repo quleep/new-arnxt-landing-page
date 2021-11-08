@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './Component/Navbar';
 import Footer from './Component/Footer'
 import LandingPage from './Component/LandingPage';
-import Getstarted from './Component/Getstarted';
 import Subscribe from './Component/Subscribe';
 import About from './Component/About';
 import Products from './Component/Products';
@@ -90,7 +89,6 @@ function App() {
                 </Switch>
                       <Navbar />
                       <Subscribe />
-                      <Getstarted />
                       <Footer />
 
            </div>
