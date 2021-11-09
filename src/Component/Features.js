@@ -38,6 +38,7 @@ function Features() {
                       Place Objects
                     </button>
                   </div>
+                  
                   <div
                     id="collapseOne"
                     className="accordion-collapse collapse show"
@@ -77,9 +78,7 @@ function Features() {
                       realtime
                     </div>
                   </div>
-                  {/* <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body">Change position, rotation or scale of your product in realtime</div>
-                                </div> */}
+                  
                 </div>
 
                 <div className="accordion-item">

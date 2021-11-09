@@ -785,7 +785,7 @@ a:hover {
 }
 
 .features .accordion-body {
-	margin-left: 4.125rem;
+	/* margin-left: 4.125rem; */
 	padding: 0.375rem 0 0 0;
 	color: #001219;
 }

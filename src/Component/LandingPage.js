@@ -49,7 +49,7 @@ function LandingPage() {
                 <br />
                 <br />
                 <p className="p-large">
-                  View 3D products in your space through our world className App
+                  View 3D products in your space through our world Classname App
                 </p>
               </div>
             </div>

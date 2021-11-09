@@ -56,7 +56,7 @@ function About() {
                 <img
                   className="img-fluid"
                   style={{ height: "200px" }}
-                  src="assets/images/logo.png"
+                  src="assets/images/logo7.png"
                   alt="alternative"
                 />
                 <h2>Vision!</h2>
