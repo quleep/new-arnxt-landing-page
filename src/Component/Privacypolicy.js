@@ -13,11 +13,14 @@ function Privacypolicy() {
 
   return (
     <div>
-      <div id="privacy" className="section section-padding offwhite-bg">
-        <div className="container text-left">
+      <div
+        id="privacy"
+        className="section section-padding offwhite-bg mt-5 p-5"
+      >
+        <div className="container text-start">
           {/* heading start */}
           <div className="">
-            <h3 className="">Privacy Policy</h3>
+            <h3 className="text-center">Privacy Policy</h3>
           </div>
           {/* heading end */}
           {/* description start */}
@@ -185,7 +188,10 @@ function Privacypolicy() {
               </li>
             </ul>
             <div className="">
-              <div onClick={()=>ScrollToTop}>
+              <div
+                className="ar-pointer ar-link-font-color"
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 Back to top
               </div>
             </div>
@@ -229,7 +235,10 @@ function Privacypolicy() {
                 the information we receive
               </p>
               <div className="">
-                <div onClick={()=>ScrollToTop}>
+                <div
+                  className="ar-pointer ar-link-font-color"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   Back to top
                 </div>
               </div>
@@ -465,7 +474,10 @@ function Privacypolicy() {
                 <a href="/">Advertising Preferences</a> page.
               </p>
             </div>
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
@@ -481,7 +493,10 @@ function Privacypolicy() {
               information that is not available through Your Account you can
               submit a request <a href="/">here</a>.
             </div>
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
@@ -563,7 +578,10 @@ function Privacypolicy() {
                 </li>
               </ul>
             </div>
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
@@ -575,7 +593,10 @@ function Privacypolicy() {
               age of 18 years, you may use Quleep Services only with the
               involvement of a parent or guardian.
             </div>
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
@@ -600,7 +621,10 @@ function Privacypolicy() {
               affected customers.
             </div>
 
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
@@ -625,7 +649,10 @@ function Privacypolicy() {
                 </li>
               </ul>
             </div>
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
@@ -809,7 +836,10 @@ function Privacypolicy() {
               technologies on devices, applications, and our web pages to
               collect browsing, usage, or other technical information.
             </div>
-            <div onClick={()=>ScrollToTop}>
+            <div
+              className="ar-pointer ar-link-font-color"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Back to top
             </div>
           </div>
