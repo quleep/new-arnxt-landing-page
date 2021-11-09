@@ -96,6 +96,7 @@ function LandingPage() {
           </div>
           <div className="row">
             <div className="col-lg-12">
+                <Fade distance="50px" duration="1500" up>
               <div className="card">
                 <div className="card-icon mx-auto">
                   <span className="fas">
@@ -111,7 +112,9 @@ function LandingPage() {
                   {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
                 </div>
               </div>
+                </Fade>
 
+              <Fade distance="50px" duration="1500" up>
               <div className="card">
                 <div className="card-icon mx-auto red">
                   <span className="far">
@@ -128,7 +131,9 @@ function LandingPage() {
                   {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
                 </div>
               </div>
-
+              </Fade>
+              <Fade distance="50px" duration="1500" up>
+                
               <div className="card">
                 <div className="card-icon mx-auto green">
                   <span className="far">
@@ -142,6 +147,7 @@ function LandingPage() {
                   {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
                 </div>
               </div>
+              </Fade>
             </div>
           </div>
         </div>

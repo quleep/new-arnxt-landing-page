@@ -1168,8 +1168,8 @@ a:hover {
 /******************/
 .footer {
 	position: relative;
-	padding-top: 7.5rem;
-	padding-bottom: 6rem;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
 	text-align: center;
 }
 
@@ -1225,7 +1225,7 @@ a:hover {
 /*********************/
 .copyright {
 	padding-top: 1.5rem;
-	border-top: 1px solid #d0dae2;
+	/* border-top: 1px solid #d0dae2; */
 	text-align: center;
 }
 
