@@ -161,11 +161,11 @@ function LandingPage() {
                       <div className="swiper-slide">
                         <img
                           className="img-fluid"
-                          src="assets/images/customer-logo-1.png"
+                          src="assets/images/customer-logo-1.webp"
                           alt="alternative"
                         />
                       </div>
-                      <div className="swiper-slide">
+                      <div className="swiper-slide mb-5">
                         <img
                           className="img-fluid"
                           src="assets/images/customer-logo-2.png"

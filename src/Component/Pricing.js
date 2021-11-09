@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Pricing() {
   // scrolled to top when redirected from a page
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -18,32 +19,45 @@ function Pricing() {
                     Plans and pricing
                   </h1>
                   <br />
-                  <br />
-                  {/* <h1 className="p-heading">Billing Cycle :</h1> */}
-                  <br />
-                  <br />
-                  <a className="btn-solid-lg" href="#contact">
-                    Annual
-                  </a>
-                  <a className="btn-solid-lg" href="/pricing">
-                    Monthly
-                  </a>
 
-                  <br />
-                  <br />
+
+                  <div>
+                  
+                  <label className="switch">
+                  
+                 <input type="checkbox"/>
+                 
+                 <span className="slider round"></span>
+                  </label>
+                  
+                  </div>
+
+                 
                   <br />
                 </div>
               </div>
             </div>
 
-
             <table className="table table-bordered table-light">
             <thead>
-            <tr>
-                   <th scope="col">Features</th>
-                     <th scope="col">Premium</th>
-                       <th scope="col">Business Pro</th>
-                   <th scope="col">Enterprise</th>
+            <tr >
+                   <th style={{width:'500px'}} scope="col"><h2 className="card-title pricing-card-title">Features</h2> </th> 
+
+                     <th  scope="col">
+                     <h4 className="my-0 font-weight-normal">Premium</h4>
+                      <h2 className="card-title pricing-card-title">$99 <small className="text-muted">/ month </small></h2>
+                      <a className="btn-solid-reg" href="#contact">Start 14 day trail</a>
+                      </th>
+
+                       <th  scope="col"><h4 className="my-0 font-weight-normal">Business Pro</h4>
+                      <h2 className="card-title pricing-card-title">$299 <small className="text-muted">/ month </small></h2>
+                      <a className="btn-solid-reg" href="#contact">Start 14 day trail</a>
+                       </th>
+
+                   <th  scope="col"><h4 className="my-0 font-weight-normal">Enterprise</h4>
+                      <h2 className="card-title pricing-card-title">Custom <small className="text-muted">/ month </small></h2>
+                      <a className="btn-solid-reg" href="#contact">Start 14 day trail</a>
+                   </th>
                  </tr>
             </thead>
 

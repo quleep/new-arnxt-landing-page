@@ -22,6 +22,11 @@ function Features() {
           <div className="row">
             <div className="col-xl-5">
               <div className="accordion" id="accordionExample">
+
+
+
+
+
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon">
                     <span className="fas fa-tv"></span>
@@ -51,6 +56,14 @@ function Features() {
                   </div>
                 </div>
 
+
+
+
+
+
+
+                
+
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon blue">
                     <span className="fas fa-microphone"></span>
@@ -60,9 +73,9 @@ function Features() {
                       className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
                     >
                       Customize
                     </button>
@@ -80,6 +93,13 @@ function Features() {
                   </div>
                   
                 </div>
+                
+
+
+
+
+
+
 
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon purple">
@@ -90,9 +110,9 @@ function Features() {
                       className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
                     >
                       Change your walls
                     </button>
@@ -109,6 +129,16 @@ function Features() {
                   </div>
                 </div>
 
+
+
+
+
+
+
+
+
+
+
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon orange">
                     <span className="fas fa-tools"></span>
@@ -118,9 +148,9 @@ function Features() {
                       className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
                     >
                       Save and Share
                     </button>
@@ -136,6 +166,15 @@ function Features() {
                     </div>
                   </div>
                 </div>
+
+
+
+
+
+
+
+
+
 
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon">
@@ -165,6 +204,11 @@ function Features() {
                   </div>
                 </div>
 
+
+
+
+
+
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon">
                     <span className="fas fa-tv"></span>
@@ -193,6 +237,15 @@ function Features() {
                     </div>
                   </div>
                 </div>
+
+
+
+
+
+
+
+
+
               </div>
             </div>
             <div className="col-xl-7">

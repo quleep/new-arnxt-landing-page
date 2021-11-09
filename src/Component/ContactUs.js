@@ -15,18 +15,12 @@ function ContactUs() {
             <div className="col-lg-6">
               <div className="text-container">
                 <div className="section-title"></div>
-                <h1>Have a question on your mind? Get in touch with us!</h1>
-                <p>
-                  Our door is always open to help you with any question you
-                  might have about our service!
-                </p>
-                <br />
-                <br />
-                <br />
+                <h1>We are always open to help you with your questions about our services. <br/> Write to us here!</h1>
+                
 
-                <h2>Can't find what you are looking for?</h2>
-                <p>
-                  Call us or send us an email. We will get back to you as soon
+                
+                <p> Can't find what you are looking for?
+                  Call us or send us an email. <br/> We will get back to you as soon
                   as possible. Thanks!!
                 </p>
                 <h2>+91 98041 99881 | care@arnxt.com</h2>
