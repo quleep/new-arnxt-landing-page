@@ -1,21 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './Component/Navbar';
-import Footer from './Component/Footer'
-import LandingPage from './Component/LandingPage';
-import Subscribe from './Component/Subscribe';
-import About from './Component/About';
-import Products from './Component/Products';
-import WhyBest from './Component/WhyBest';
-import Pricing from './Component/Pricing';
-import Features from './Component/Features';
-import ContactUs from './Component/ContactUs';
-import StartSelling from './Component/StartSelling';
-import Blog from './Component/Blog';
-import Termsconditions from './Component/Termsconditions';
-import Privacypolicy from './Component/Privacypolicy';
-import Help from './Component/Help';
-import Faqs from './Component/Faqs';
+
+import {About,Blog,ContactUs,Faqs,Features, LandingPage,Navbar,Pricing,Privacypolicy,Products,Footer,WhyBest,TermsAndConditions,Subscribe} from "./Component"
 import {
   BrowserRouter as Router,
   Switch,
@@ -60,28 +45,19 @@ function App() {
                            <ContactUs />
                        </Route>
 
-                       <Route path="/startselling">
-                           <StartSelling />
-                       </Route>
-
                        <Route path="/blog">
                            <Blog />
-                       </Route>
-
-                       <Route path="/terms-conditions">
-                           <Termsconditions />
                        </Route>
 
                        <Route path="/privacy-policy">
                            <Privacypolicy />
                        </Route>
 
-                       <Route path="/help">
-                           <Help />
-                       </Route>
-
                        <Route path="/faqs">
                            <Faqs />
+                       </Route>
+                       <Route path="/termsandconditions">
+                           <TermsAndConditions />
                        </Route>
 
                        

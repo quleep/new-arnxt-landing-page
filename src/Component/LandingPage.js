@@ -1,24 +1,20 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { DiApple } from "react-icons/di";
 import { FaGooglePlay } from "react-icons/fa";
 import { VscTools } from "react-icons/vsc";
 import { IoLayersOutline } from "react-icons/io5";
 import { BsSpeedometer } from "react-icons/bs";
-import Fade from "react-reveal/Fade";
-
+import Fade from "react-reveal/Fade"
 
 function LandingPage() {
-
-
   // scrolled to top when redirected from a page
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
-
+  }, []);
 
   return (
     <div>
-      {/* Header starts here ------------------------------------------------------------------------ */}
+      {/* Header starts here ---------------------------------------------------------------------- */}
 
       <header id="header" className="header">
         <div className="container-fluid">
@@ -29,14 +25,13 @@ function LandingPage() {
                   Experiential Commerce <br />A Marketplace for "TRY & BUY"
                 </h1>
 
-                <h2>Download Now!
+                <h2>Download Now!</h2>
 
-                </h2>
+                <FaGooglePlay className="font" style={{ fontSize: "70px" }} />
 
-                <FaGooglePlay className='font' style={{fontSize:'70px'}} />
+                <DiApple className="font" style={{ fontSize: "80px" }} />
 
-                <DiApple className='font' style={{fontSize:'80px'}} />
-
+            
                 <br />
                 <br />
                 <p className="p-large">
@@ -56,11 +51,7 @@ function LandingPage() {
                   </Fade>
                 </div>
                 <div className="animate-img-2">
-                  <Fade
-                    distance="20px"
-                    duration="1000"
-                    up
-                  >
+                  <Fade distance="20px" duration="1000" up>
                     <img
                       className="img-2"
                       src="assets/images/header-image2.png"
@@ -87,61 +78,61 @@ function LandingPage() {
           </div>
           <div className="row">
             <div className="col-lg-12">
-                <Fade distance="50px" duration="1500" up>
-              <div className="card">
-                <div className="card-icon mx-auto">
-                  <span className="fas">
-                    <VscTools className="ar-theme-color" />
-                  </span>
+              <Fade distance="50px" duration="1500" up>
+                <div className="card">
+                  <div className="card-icon mx-auto">
+                    <span className="fas">
+                      <VscTools className="ar-theme-color" />
+                    </span>
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Your own content</h5>
+                    <p>
+                      You can have your own content in AR that you and world can
+                      experience
+                    </p>
+                    {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
+                  </div>
                 </div>
-                <div className="card-body">
-                  <h5 className="card-title">Your own content</h5>
-                  <p>
-                    You can have your own content in AR that you and world can
-                    experience
-                  </p>
-                  {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
-                </div>
-              </div>
-                </Fade>
+              </Fade>
 
               <Fade distance="50px" duration="1500" up>
-              <div className="card">
-                <div className="card-icon mx-auto red">
-                  <span className="far">
-                    {" "}
-                    <IoLayersOutline className="ar-theme-color" />{" "}
-                  </span>
+                <div className="card">
+                  <div className="card-icon mx-auto red">
+                    <span className="far">
+                      {" "}
+                      <IoLayersOutline className="ar-theme-color" />{" "}
+                    </span>
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Upload your self</h5>
+                    <p>
+                      You will not need help from anyother person to upload your
+                      models or images
+                    </p>
+                    {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
+                  </div>
                 </div>
-                <div className="card-body">
-                  <h5 className="card-title">Upload your self</h5>
-                  <p>
-                    You will not need help from anyother person to upload your
-                    models or images
-                  </p>
-                  {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
-                </div>
-              </div>
               </Fade>
               <Fade distance="50px" duration="1500" up>
-                
-              <div className="card">
-                <div className="card-icon mx-auto green">
-                  <span className="far">
-                    {" "}
-                    <BsSpeedometer className="ar-theme-color" />{" "}
-                  </span>
+                <div className="card">
+                  <div className="card-icon mx-auto green">
+                    <span className="far">
+                      {" "}
+                      <BsSpeedometer className="ar-theme-color" />{" "}
+                    </span>
+                  </div>
+                  <div className="card-body">
+                    <h5 className="card-title">Quick & efficiency</h5>
+                    <p>You can setup one model under 5 minutes</p>
+                    {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
+                  </div>
                 </div>
-                <div className="card-body">
-                  <h5 className="card-title">Quick & efficiency</h5>
-                  <p>You can setup one model under 5 minutes</p>
-                  {/* <a className="read-more no-line" href="#">Learn more <span className="fas fa-long-arrow-alt-right"></span></a> */}
-                </div>
-              </div>
               </Fade>
             </div>
           </div>
         </div>
+      </div>
 
         {/* Services ends here --------------------------------------------------------------------------- */}
 
@@ -202,7 +193,8 @@ function LandingPage() {
             </div>
           </div>
         </div>
-      </div>
+      
+    
 
       {/* Slider ends here---------------------------------------------------------------------------------- */}
 

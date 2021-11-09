@@ -8,7 +8,7 @@ function Subscribe() {
             
             <div className="container">
             <h2>Subscribe to our newsletter!</h2>
-            <p class="pb-2 text-center text-black"> <bold>Delivering the latest product trends and industry news straight to your inbox</bold> </p>
+            <p class="pb-2 text-center ar-grey-font"> <b>Delivering the latest product trends and industry news straight to your inbox</b> </p>
 
             <div className="form-group">
                             <div className='col-md-4 mx-auto'>

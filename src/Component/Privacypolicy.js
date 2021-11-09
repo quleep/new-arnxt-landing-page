@@ -7,9 +7,6 @@ function Privacypolicy() {
     window.scrollTo(0, 0);
   }, []);
 
-  const ScrollToTop = ()=>{
-    
-  }
 
   return (
     <div>
