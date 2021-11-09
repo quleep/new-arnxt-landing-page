@@ -20,7 +20,7 @@ function Footer() {
                             <Link to="/contact">CONTACT US</Link>
                           </li>
                           <li>
-                            <Link to="/terms-conditions">
+                            <Link to="/termsandconditions">
                               TERMS & CONDITIONS
                             </Link>
                           </li>
