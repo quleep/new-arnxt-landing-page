@@ -22,7 +22,7 @@ function Features() {
           <div className="row">
             <div className="col-xl-5">
               <div className="accordion" id="accordionExample">
-                <div className="accordion-item">
+                <div className="accordion-item mb-0">
                   <div className="accordion-icon">
                     <span className="fas fa-tv"></span>
                   </div>
@@ -45,13 +45,13 @@ function Features() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-start">
                       Place furniture, Appliances etc. from an large collection
                     </div>
                   </div>
                 </div>
 
-                <div className="accordion-item">
+                <div className="accordion-item mb-0">
                   <div className="accordion-icon blue">
                     <span className="fas fa-microphone"></span>
                   </div>
@@ -73,7 +73,7 @@ function Features() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-start">
                       Change position, rotation or scale of your product in
                       realtime
                     </div>
@@ -81,7 +81,7 @@ function Features() {
                   
                 </div>
 
-                <div className="accordion-item">
+                <div className="accordion-item mb-0">
                   <div className="accordion-icon purple">
                     <span className="fas fa-video"></span>
                   </div>
@@ -103,13 +103,13 @@ function Features() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-start">
                       Tryout vast collection of wallpapers or tiles
                     </div>
                   </div>
                 </div>
 
-                <div className="accordion-item">
+                <div className="accordion-item mb-0">
                   <div className="accordion-icon orange">
                     <span className="fas fa-tools"></span>
                   </div>
@@ -131,13 +131,13 @@ function Features() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-start">
                       Save your designs and share with others
                     </div>
                   </div>
                 </div>
 
-                <div className="accordion-item">
+                <div className="accordion-item mb-0">
                   <div className="accordion-icon">
                     <span className="fas fa-tv"></span>
                   </div>
@@ -159,13 +159,13 @@ function Features() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-start">
                       Purchase products directly from the app
                     </div>
                   </div>
                 </div>
 
-                <div className="accordion-item">
+                <div className="accordion-item mb-0">
                   <div className="accordion-icon">
                     <span className="fas fa-tv"></span>
                   </div>
@@ -187,7 +187,7 @@ function Features() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-start">
                       {" "}
                       Change tiles on your floors
                     </div>
