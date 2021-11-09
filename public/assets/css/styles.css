@@ -640,37 +640,37 @@ a:hover {
 
 /* Pricing ends here------------------------------------- */
 
-.basic-10 {
+.whybest {
 	padding-top: 2.25rem;
 	padding-bottom: 4.75rem;
 	background-color: #f3f3f3;
 	/* background: linear-gradient(rgb(252, 250, 251), rgb(255, 255, 255)); */
 }
 
-.basic-10 .image-container {
+.whybest .image-container {
 	margin-top: 8rem;
 }
 
-.basic-10 h2 {
+.whybest h2 {
 	margin-bottom: 1.75rem;
 	margin-right: 5rem;
 }
 
-.basic-10 p {
+.whybest p {
 	margin-bottom: 1rem;
 	margin-right: 5rem;
 }
-.basic-10 .text-container h4{
+.whybest .text-container h4{
 	text-align: left;
 	margin-top: 20px;
 	margin-left: 10px;
 }
 
-.basic-10 .text-container {
+.whybest .text-container {
 	margin-top: 8rem;
 	margin-left: 2.5rem;
 }
-.basic-10 .image-container {
+.whybest .image-container {
 	margin-bottom: 50px;
 }
 
@@ -679,27 +679,13 @@ a:hover {
 
 
 
-/* Privacy Policy starts here------------------------------------------------------ */
-
-.container .text-left
-
-
-
-/* Privacy Policy ends here----------------------------------------------------- */
-
-
-
-
-
-
-
 /********************/
 /*     Features     */
 /********************/
 .features {
-	padding-top: 9.25rem;
+	padding-top: 2rem;
 	padding-bottom: 9.75rem;
-	background-color:#161e2d !important;
+	/* background-color:#161e2d !important; */
 	/* background: url('../images/features-background.jpg') center center no-repeat; */
 	background-size: cover;
 }
@@ -1081,9 +1067,6 @@ a:hover {
 	color: #001219;
 }
 
-
-
-
 /* start selling section--------- */
 
 
@@ -1168,8 +1151,8 @@ a:hover {
 /******************/
 .footer {
 	position: relative;
-	padding-top: 3rem;
-	padding-bottom: 2rem;
+	padding-top: 7.5rem;
+	padding-bottom: 6rem;
 	text-align: center;
 }
 
@@ -1225,7 +1208,7 @@ a:hover {
 /*********************/
 .copyright {
 	padding-top: 1.5rem;
-	/* border-top: 1px solid #d0dae2; */
+	border-top: 1px solid #d0dae2;
 	text-align: center;
 }
 
@@ -1348,6 +1331,8 @@ a:hover {
 		z-index: 100;
 		transform: translateX(-100px);
 	}
+
+	
 	/* end of header */
 
 
@@ -1368,6 +1353,7 @@ a:hover {
 	/* end of extra pages */
 }
 /* end of min-width 768px */
+
 
 
 /* Min-width 992px */
@@ -1503,9 +1489,15 @@ a:hover {
 	
 	/* Details 2 */
 	.basic-2 .text-container {
-		margin-top: 3rem;
+		margin-top: 2rem;
 		margin-left: 5px;
 		margin-bottom: 0;
+	}
+	.basic-2 .text-container .about-details{
+		text-align: justify;
+  text-justify: inter-word;
+  font-size: 0.8rem;
+  margin-bottom: 3rem;
 	}
 	.basic-2 .image-container {
 		margin-top: 50px;
@@ -1596,6 +1588,7 @@ a:hover {
 	.container {
 		max-width: 1140px;
 	}
+	
 	/* end of general styles */
 	
 

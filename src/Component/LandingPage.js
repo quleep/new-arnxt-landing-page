@@ -6,6 +6,7 @@ import { IoLayersOutline } from "react-icons/io5";
 import { BsSpeedometer } from "react-icons/bs";
 import Fade from "react-reveal/Fade";
 
+
 function LandingPage() {
 
 
@@ -36,16 +37,6 @@ function LandingPage() {
 
                 <DiApple className='font' style={{fontSize:'80px'}} />
 
-
-               
-
-                {/* <a className="btn-solid-sm" href="#services"> {" "} Download Now </a> 
-                <br /> 
-                <br /> 
-                <br />
-                <a className="btn-solid-sm" href="#services"> {" "}  Download Now </a> */}
-                {/* <a className="btn-solid-lg" href="#services">Scheduled Demo</a>
-                                    <a className="btn-solid-lg" href="#services">Product Video</a> */}
                 <br />
                 <br />
                 <p className="p-large">
@@ -161,7 +152,7 @@ function LandingPage() {
             <div className="row">
               <div className="col-lg-12">
                 <h4>Trusted by World leaders</h4>
-                {/* <span className="blue">5000</span>  */}
+               
                 <hr className="section-divider" />
 
                 <div className="slider-container">
@@ -203,9 +194,7 @@ function LandingPage() {
                         />
                       </div>
 
-                      {/* <div className="swiper-slide">
-                                        <img className="img-fluid" src="assets/images/customer-logo-1.png" alt="alternative" />
-                                    </div> */}
+                      
                     </div>
                   </div>
                 </div>

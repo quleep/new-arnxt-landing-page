@@ -8,7 +8,7 @@ function WhyBest() {
 
   return (
     <div>
-      <div id="details" className="basic-10">
+      <div id="details" className="whybest">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-xl-7">

@@ -25,9 +25,9 @@ function About() {
                 <br />
                 <br />
                 <p className="about-details">
-                  {" "}
+                  
                   <bold>
-                    {" "}
+                    
                     ARnxt, a Made in India company that offers a wide range of
                     well-designed, functional home furnishing products at very
                     low prices. This is to ensure that a maximum number of
@@ -36,19 +36,10 @@ function About() {
                     design the complete house by choosing from widest range of
                     categories like Furniture, Flooring Elements, Wall Paints,
                     Wall Papers, Bathroom accessories, Decorative and many
-                    more..{" "}
-                  </bold>{" "}
+                    more..
+                  </bold>
                 </p>
-                {/* <h2>Vision!</h2>
-                             <p>"Save money to help people live better"</p>
-                             <h2>Mission!</h2>
-                             <p>"Create best Market in the heart of employees and sellers"</p>
-                             <h2>Principle!</h2>
-                             <p>Customer obsession rather than competitor focus. 
-                                Passion for invention. 
-                                Commitment to operational excellence. 
-                                Invent, Simplify & Think Big. 
-                                Long-team vision to earn Trust.</p> */}
+               
               </div>
             </div>
             <div className="col-lg-6 col-xl-7">
