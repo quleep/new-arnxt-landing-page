@@ -28,11 +28,12 @@ function Footer() {
                             <Link to="/privacy-policy">PRIVACY POLICY</Link>
                           </li>
                           <li>
-                            <Link to="/contact">HELP</Link>
-                          </li>
-                          <li>
                             <Link to="/faqs">FAQS</Link>
                           </li>
+                          <li>
+                            <Link to="/contact">HELP</Link>
+                          </li>
+                          
                         </ul>
                       </div>
                     </div>

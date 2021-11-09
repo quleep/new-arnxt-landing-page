@@ -32,8 +32,6 @@ function LandingPage() {
                 <DiApple className="font" style={{ fontSize: "80px" }} />
 
             
-                <br />
-                <br />
                 <p className="p-large">
                   View 3D products in your space through our world Classname App
                 </p>
