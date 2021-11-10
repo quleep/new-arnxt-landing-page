@@ -77,14 +77,6 @@ function Pricing() {
                  <td>Enterprise</td>
                   </tr>
 
-                  
-                {/* <tr>
-                   <th scope="row">Photorealistic Renders/month</th>
-                  <td >20</td>
-                  <td>50</td>
-                  <td>Enterprise</td>
-                </tr> */}
-
 
                 <tr>
                    <th scope="row">Web 3D and App-free <br/>

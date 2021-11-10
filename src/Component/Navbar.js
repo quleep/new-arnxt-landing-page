@@ -8,8 +8,8 @@ function Navbar() {
             <div className="container">
 
               
-            <img className="img-fluid" style={{height:'60px'}} src="assets/images/logo.png" alt="alternative" />
-                 <Link className="navbar-brand logo-text" to="/"></Link>
+            
+                 <Link className="navbar-brand logo-text" to="/"> <img className="img-fluid" style={{height:'60px'}} src="assets/images/logo.png" alt="alternative" /> </Link>
 
 
                 <button className="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">

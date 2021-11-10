@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react';
+import React, {useEffect} from "react";
 
-function blog() {
+function Blog() {
   // scrolled to top when redirected from a page
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -128,4 +128,4 @@ It is also important to remember that when people are using augmented reality ap
     )
 }
 
-export default blog;
+export default Blog;

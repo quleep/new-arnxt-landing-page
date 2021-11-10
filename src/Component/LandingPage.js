@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { DiApple } from "react-icons/di";
-import { FaGooglePlay } from "react-icons/fa";
+// import { DiApple } from "react-icons/di";
+// import { FaGooglePlay } from "react-icons/fa";
 import { VscTools } from "react-icons/vsc";
 import { IoLayersOutline } from "react-icons/io5";
 import { BsSpeedometer } from "react-icons/bs";
