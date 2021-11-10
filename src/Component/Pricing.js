@@ -78,12 +78,12 @@ function Pricing() {
                   </tr>
 
                   
-                <tr>
+                {/* <tr>
                    <th scope="row">Photorealistic Renders/month</th>
                   <td >20</td>
                   <td>50</td>
                   <td>Enterprise</td>
-                </tr>
+                </tr> */}
 
 
                 <tr>
@@ -121,9 +121,9 @@ function Pricing() {
 
                 <tr>
                    <th scope="row">QR Code Access to AR</th>
-                  <td > <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
+                  <td> Coming Soon</td>
+                  <td> Coming Soon</td>
+                  <td> Coming Soon</td>
                 </tr>
 
 
@@ -136,37 +136,11 @@ function Pricing() {
 
 
                 <tr>
-                   <th scope="row">Customize 3D Viewer Icons</th>
-                  <td ><i className="fas fa-window-minimize"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                </tr>
-
-
-
-                <tr>
                    <th scope="row">Product Annotations</th>
                   <td ><i className="fas fa-window-minimize"></i></td>
                   <td> <i className="fas fa-check"></i></td>
                   <td> <i className="fas fa-check"></i></td>
                 </tr>
-
-
-                <tr>
-                   <th scope="row">3D Viewer domain restrictions</th>
-                  <td ><i className="fas fa-window-minimize"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                </tr>
-
-
-                <tr>
-                   <th scope="row">3D product configurator</th>
-                  <td ><i className="fas fa-window-minimize"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                </tr>
-
 
                 <tr>
                    <th scope="row">White label 3D Viewer</th>
@@ -175,15 +149,6 @@ function Pricing() {
                   <td> <i className="fas fa-check"></i></td>
                 </tr>
 
-
-                <tr>
-                   <th scope="row">Virtual Try-On (VTO) support</th>
-                  <td ><i className="fas fa-window-minimize"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                </tr>
-
-                
                 <tr>
                    <th scope="row">Manage Multiple Accounts</th>
                   <td ><i className="fas fa-window-minimize"></i></td>
@@ -194,8 +159,8 @@ function Pricing() {
                 <tr>
                    <th scope="row">3D Viewer API</th>
                   <td ><i className="fas fa-window-minimize"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
+                  <td> Coming Soon</td>
+                  <td> Coming Soon</td>
                 </tr>
 
                 <tr>

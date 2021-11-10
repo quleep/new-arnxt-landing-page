@@ -149,10 +149,12 @@ function LandingPage() {
                 <h4>Trusted by World leaders</h4>
                
                 <hr className="section-divider" />
-
+              
                 <div className="slider-container">
+                
                   <div className="swiper-container image-slider">
                     <div className="swiper-wrapper d-flex align-items-center">
+                    
                       <div className="swiper-slide">
                         <img
                           className="img-fluid"
