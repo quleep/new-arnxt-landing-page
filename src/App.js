@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import {About,Blog,ContactUs,Faqs,Features, LandingPage,Navbar,Pricing,Privacypolicy,Products,Footer,WhyBest,TermsAndConditions,Subscribe} from "./Component"
 import {
   BrowserRouter as Router,
