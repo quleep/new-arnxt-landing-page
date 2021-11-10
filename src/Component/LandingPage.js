@@ -26,10 +26,16 @@ function LandingPage() {
                 </h1>
 
                 <h2>Download Now!</h2>
+                <a href="https://play.google.com/" target="blank" ><img className="image"  src="assets/images/playstore.png"  alt="playstore" /></a>
 
-                <FaGooglePlay className="font" style={{ fontSize: "70px" }} />
+                <a href="https://www.apple.com/in/" target="blank" > <img className="image" src="assets/images/apple.png"  alt="apple" /> </a>
 
-                <DiApple className="font" style={{ fontSize: "80px" }} />
+                
+
+
+                {/* <FaGooglePlay className="font" style={{ Size: "70px" }} />
+
+                <DiApple className="font" style={{ fontSize: "80px" }} /> */}
 
             
                 <p className="p-large">
@@ -231,7 +237,7 @@ function LandingPage() {
 
       {/* Augmented reality sections starts here---------------------------------------------------------------------------- */}
 
-      <div className="basic-2">
+      <div className="augmented">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-xl-5">

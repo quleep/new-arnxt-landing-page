@@ -42,14 +42,15 @@ function Footer() {
                 <div className="social-container">
                   <span className="fa-stack">
                     <a href="https://www.facebook.com/ARNXT/" target="blank">
-                      <i className="fas fa-circle fa-stack-2x"></i>
-                      <i className="fab fa-facebook-f fa-stack-1x"></i>
+                      {/* <i className="fas fa-circle fa-stack-2x"></i> */}
+                      <img className="footer-image" src="assets/images/facebook.png" alt="" />
                     </a>
                   </span>
                   <span className="fa-stack">
                     <a href="https://twitter.com/ARNXT1" target="blank">
-                      <i className="fas fa-circle fa-stack-2x"></i>
-                      <i className="fab fa-twitter fa-stack-1x"></i>
+                    <img className="footer-image-twitter" src="assets/images/twitter.png" alt="" />
+                      {/* <i className="fas fa-circle fa-stack-2x"></i>
+                      <i className="fab fa-twitter fa-stack-1x"></i> */}
                     </a>
                   </span>
                   <span className="fa-stack">
@@ -57,8 +58,9 @@ function Footer() {
                       href="https://www.linkedin.com/company/arnxt"
                       target="blank"
                     >
-                      <i className="fas fa-circle fa-stack-2x"></i>
-                      <i className="fab fa-linkedin fa-stack-1x"></i>
+                      <img className="footer-image" src="assets/images/linkedin.png" alt="" />
+                      {/* <i className="fas fa-circle fa-stack-2x"></i>
+                      <i className="fab fa-linkedin fa-stack-1x"></i> */}
                     </a>
                   </span>
                   <span className="fa-stack">
@@ -66,8 +68,9 @@ function Footer() {
                       href="https://www.instagram.com/arnxt2021/"
                       target="blank"
                     >
-                      <i className="fas fa-circle fa-stack-2x"></i>
-                      <i className="fab fa-instagram fa-stack-1x"></i>
+                      <img className="footer-image-instagram" src="assets/images/instagram.png" alt="" />
+                      {/* <i className="fas fa-circle fa-stack-2x"></i>
+                      <i className="fab fa-instagram fa-stack-1x"></i> */}
                     </a>
                   </span>
                   <span className="fa-stack">
@@ -75,8 +78,9 @@ function Footer() {
                       href="https://www.youtube.com/channel/UCeMwHXO9Y_L5mAc0jKmxT4A"
                       target="blank"
                     >
-                      <i className="fas fa-circle fa-stack-2x"></i>
-                      <i className="fab fa-youtube fa-stack-1x"></i>
+                      <img className="footer-image-instagram" src="assets/images/youtube.png" alt="" />
+                      {/* <i className="fas fa-circle fa-stack-2x"></i>
+                      <i className="fab fa-youtube fa-stack-1x"></i> */}
                     </a>
                   </span>
                 </div>

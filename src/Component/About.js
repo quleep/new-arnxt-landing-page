@@ -8,7 +8,7 @@ function About() {
 
   return (
     <div>
-      <div className="basic-2">
+      <div className="about">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-xl-5">
@@ -46,7 +46,7 @@ function About() {
               <div className="image-container">
                 <img
                   className="img-fluid"
-                  style={{ height: "200px" }}
+                  style={{ size: "180px" }}
                   src="assets/images/logo7.png"
                   alt="alternative"
                 />
@@ -58,8 +58,8 @@ function About() {
                 </p>
                 <h2>Principle!</h2>
                 <p>
-                  Customer obsession rather than competitor focus. Passion for
-                  invention. Commitment to operational excellence. Invent,
+                  Customer obsession rather than competitor focus. <br/> Passion for
+                  invention. Commitment to operational excellence. <br/> Invent,
                   Simplify & Think Big. Long-team vision to earn Trust.
                 </p>
               </div>
