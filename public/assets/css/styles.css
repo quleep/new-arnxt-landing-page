@@ -685,7 +685,7 @@ a:hover {
 .about .text-container .about-details{
 			text-align: justify;
 	  text-justify: inter-word;
-	  font-size: 0.8rem;
+	  font-size: 0.9rem;
 	  margin-bottom: 3rem;
 		}
 .about .image-container {
@@ -831,16 +831,14 @@ a:hover {
 /*     Features     */
 /********************/
 .features {
+
 	padding-top: 2rem;
 	padding-bottom: 9.75rem;
-	/* background-color:#161e2d !important; */
-	/* background: url('../images/features-background.jpg') center center no-repeat; */
 	background-size: cover;
 	align-items: center;
 }
 
 .features .h2-heading {
-	/* margin-bottom: 1rem; */
 	margin-top: 100px;
 	color: #161e2d;
 	text-align: center;
@@ -849,7 +847,7 @@ a:hover {
 
 .features .p-heading {
 	margin-bottom: 4rem;
-	color: white;
+	color: #161e2d;
 	text-align: center;
 }
 
@@ -858,6 +856,7 @@ a:hover {
 }
 
 .features .accordion-item {
+	margin-left: 50px;
 	margin-bottom: 2.5rem;
 	border: none;
 	border-radius: 0;
@@ -874,20 +873,17 @@ a:hover {
 	height: 44px;
 	border-radius: 4px;
 	text-align: center;
-	background-color: #14be9f;
+	background-color: #ffea00;
 }
 
-.features .accordion-icon.blue {
-	background-color: #1d79fb;
-}
-
-.features .accordion-icon.purple {
-	background-color: #dc63ff;
+.features .accordion-icon.yellow {
+	background-color: #ffff3f;
 }
 
 .features .accordion-icon.orange {
-	background-color: #ff6c02;
+	background-color: #fff3b0;
 }
+
 
 .features .accordion-icon .fas {
 	color: #001219;
@@ -927,7 +923,15 @@ a:hover {
 
 
 
+.features .accordion {
+	margin-bottom: 0;
+}
 
+.features .image-container {
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
 
 
 /* products Starts Here------------------------------------------------ */
@@ -943,7 +947,7 @@ a:hover {
 
 .accordion-2 .h2-heading {
 	margin-bottom: 1rem;
-	color: #fdf000;
+	color: #161e2d;
 	text-align: center;
 }
 
@@ -1610,6 +1614,8 @@ a:hover {
 	.navbar .nav-item .btn-solid-sm {
 		margin-top: 0;
 		margin-left: 1rem;
+		font-size: 12px;
+		/* size: 5px; */
 	}
 	/* end of navigation */
 
@@ -1802,23 +1808,6 @@ a:hover {
 	}
 	/* end of services */
 
-
-	
-
-
-
-
-	/* Features */
-	.features .accordion {
-		margin-bottom: 0;
-	}
-
-	.features .image-container {
-		text-align: right;
-		margin-top: 50px;
-		margin-right: 100px;
-	}
-	/* end of features */
 
 
 	/* Testimonials */

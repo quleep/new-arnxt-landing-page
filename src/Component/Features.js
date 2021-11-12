@@ -24,12 +24,9 @@ function Features() {
               <div className="accordion" id="accordionExample">
 
 
-
-
-
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon">
-                    <span className="fas fa-tv"></span>
+                    <span className="fas fa-object-group"></span>
                   </div>
                   <div className="accordion-header" id="headingOne">
                     <button
@@ -59,14 +56,9 @@ function Features() {
 
 
 
-
-
-
-                
-
                 <div className="accordion-item mb-0">
-                  <div className="accordion-icon blue">
-                    <span className="fas fa-microphone"></span>
+                  <div className="accordion-icon yellow">
+                    <span className="fas fa-cut"></span>
                   </div>
                   <div className="accordion-header" id="headingTwo">
                     <button
@@ -93,17 +85,11 @@ function Features() {
                   </div>
                   
                 </div>
-                
-
-
-
-
-
 
 
                 <div className="accordion-item mb-0">
-                  <div className="accordion-icon purple">
-                    <span className="fas fa-video"></span>
+                  <div className="accordion-icon orange">
+                    <span className="fas fa-border-all"></span>
                   </div>
                   <div className="accordion-header" id="headingThree">
                     <button
@@ -132,16 +118,9 @@ function Features() {
 
 
 
-
-
-
-
-
-
-
                 <div className="accordion-item mb-0">
                   <div className="accordion-icon orange">
-                    <span className="fas fa-tools"></span>
+                    <span className="fas fa-share-alt-square"></span>
                   </div>
                   <div className="accordion-header" id="headingFour">
                     <button
@@ -169,16 +148,9 @@ function Features() {
 
 
 
-
-
-
-
-
-
-
                 <div className="accordion-item mb-0">
-                  <div className="accordion-icon">
-                    <span className="fas fa-tv"></span>
+                  <div className="accordion-icon yellow">
+                    <span className="fas fa-shopping-cart"></span>
                   </div>
                   <div className="accordion-header" id="headingOne">
                     <button
@@ -206,12 +178,9 @@ function Features() {
 
 
 
-
-
-
                 <div className="accordion-item mb-0">
-                  <div className="accordion-icon">
-                    <span className="fas fa-tv"></span>
+                  <div className="accordion-icon ">
+                    <span className="fas fa-exchange-alt"></span>
                   </div>
                   <div className="accordion-header" id="headingOne">
                     <button
@@ -237,13 +206,6 @@ function Features() {
                     </div>
                   </div>
                 </div>
-
-
-
-
-
-
-
 
 
               </div>

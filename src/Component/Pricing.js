@@ -65,7 +65,7 @@ function Pricing() {
                    <tr>
                    <th scope="row">Number of Products</th>
                    <td>50</td>
-                     <td>150</td>
+                     <td>250</td>
                    <td>Enterprise</td>
                    </tr>
 
@@ -112,14 +112,6 @@ function Pricing() {
 
 
                 <tr>
-                   <th scope="row">QR Code Access to AR</th>
-                  <td> Coming Soon</td>
-                  <td> Coming Soon</td>
-                  <td> Coming Soon</td>
-                </tr>
-
-
-                <tr>
                    <th scope="row">3D product export</th>
                   <td > <i className="fas fa-window-minimize"></i></td>
                   <td> <i className="fas fa-check"></i></td>
@@ -148,6 +140,14 @@ function Pricing() {
                   <td> <i className="fas fa-check"></i></td>
                 </tr>
 
+
+                <tr>
+                   <th scope="row">Dedicated account manager</th>
+                  <td ><i className="fas fa-window-minimize"></i></td>
+                  <td><i className="fas fa-window-minimize"></i></td>
+                  <td> <i className="fas fa-check"></i></td>
+                </tr>
+                
                 <tr>
                    <th scope="row">3D Viewer API</th>
                   <td ><i className="fas fa-window-minimize"></i></td>
@@ -155,11 +155,12 @@ function Pricing() {
                   <td> Coming Soon</td>
                 </tr>
 
+                
                 <tr>
-                   <th scope="row">Dedicated account manager</th>
-                  <td ><i className="fas fa-window-minimize"></i></td>
-                  <td><i className="fas fa-window-minimize"></i></td>
-                  <td> <i className="fas fa-check"></i></td>
+                   <th scope="row">QR Code Access to AR</th>
+                  <td> Coming Soon</td>
+                  <td> Coming Soon</td>
+                  <td> Coming Soon</td>
                 </tr>
                      </tbody>
                 </table>

@@ -18,19 +18,19 @@ function Products() {
                 turn to create a designer world around you."
               </h2>
               <p className="p-heading">
-                Get personalized experience in AR with ARnxt
+                Get personalized experience with ARnxt
               </p>
             </div>
           </div>
           <img
             className="img-fluid"
-            style={{ height: "900px" }}
+            style={{ height: "600px" }}
             src="assets/images/Product-image.webp"
             alt=""
           />
           <img
             className="img-fluid"
-            style={{ height: "800px" }}
+            style={{ height: "500px" }}
             src="assets/images/Product-image1.png"
             alt=""
           />

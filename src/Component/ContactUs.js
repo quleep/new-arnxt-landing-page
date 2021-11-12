@@ -28,22 +28,7 @@ function ContactUs() {
             </div>
             <div className="col-lg-6">
               <form>
-                <div className="form-group">
-                  <input
-                    type="email"
-                    className="form-control-input"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    className="form-control-input"
-                    placeholder="Contact Number"
-                    required
-                  />
-                </div>
+                
                 <div className="form-group">
                   <input
                     type="text"
@@ -66,6 +51,23 @@ function ContactUs() {
                     type="text"
                     className="form-control-input"
                     placeholder="Company Name"
+                    required
+                  />
+                </div>
+
+                <div className="form-group">
+                  <input
+                    type="email"
+                    className="form-control-input"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control-input"
+                    placeholder="Contact Number"
                     required
                   />
                 </div>
