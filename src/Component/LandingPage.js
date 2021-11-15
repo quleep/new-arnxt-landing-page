@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ReactPlayer from "react-player"
 // import { DiApple } from "react-icons/di";
 // import { FaGooglePlay } from "react-icons/fa";
 import { VscTools } from "react-icons/vsc";
@@ -281,6 +282,10 @@ function LandingPage() {
           <div className="row">
             <div className="col-lg-6 col-xl-7">
               <div className="image-container">
+              {/* <ReactPlayer
+        url="https://www.youtube.com/watch?v=ug50zmP9I7s"
+      /> */}
+
                 <img
                   className="img-fluid"
                   src="assets/images/details-1.png"
