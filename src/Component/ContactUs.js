@@ -23,7 +23,7 @@ function ContactUs() {
                   Call us or send us an email. <br/> We will get back to you as soon
                   as possible. Thanks!!
                 </p>
-                <h2>+91 98041 99881 | care@arnxt.com</h2>
+                <h2>+91 9883019518  | care@arnxt.com</h2>
               </div>
             </div>
             <div className="col-lg-6">
