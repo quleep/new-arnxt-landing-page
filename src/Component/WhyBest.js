@@ -55,7 +55,7 @@ function WhyBest() {
                 </h4>
                 <h4>
                   {" "}
-                  <i class="fas fa-map-marked-alt"></i> Step on the new leve
+                  <i class="fas fa-map-marked-alt"></i> Step on the new level
                 </h4>
               </div>
             </div>
