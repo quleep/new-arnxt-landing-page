@@ -212,11 +212,14 @@ function LandingPage() {
           <div className="row">
             <div className="col-lg-6 col-xl-7">
               <div className="image-container">
-                <img
+              {<ReactPlayer
+        url="https://youtu.be/vA9vC9mpqz4"
+      /> }
+                {/* <img
                   className="img-fluid"
                   src="assets/images/details-1.png"
                   alt="alternative"
-                />
+                /> */}
               </div>
             </div>
             <div className="col-lg-6 col-xl-5">
@@ -282,9 +285,9 @@ function LandingPage() {
           <div className="row">
             <div className="col-lg-6 col-xl-7">
               <div className="image-container">
-              {/* <ReactPlayer
-        url="https://www.youtube.com/watch?v=ug50zmP9I7s"
-      /> */}
+              {/* {<ReactPlayer
+        url="https://youtu.be/vA9vC9mpqz4"
+      /> } */}
 
                 <img
                   className="img-fluid"
