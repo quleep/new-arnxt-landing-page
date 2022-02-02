@@ -27,7 +27,7 @@ function LandingPage() {
                 </h1>
 
                 <h2>Download Now!</h2>
-                <a href="https://play.google.com/" target="blank" ><img className="image"  src="assets/images/playstore.png"  alt="playstore" /></a>
+                <a href="https://play.google.com/store/apps/details?id=com.quleep.ARnxt" target="blank" ><img className="image"  src="assets/images/playstore.png"  alt="playstore" /></a>
 
                 <a href="https://www.apple.com/in/" target="blank" > <img className="image" src="assets/images/apple.png"  alt="apple" /> </a>
 
